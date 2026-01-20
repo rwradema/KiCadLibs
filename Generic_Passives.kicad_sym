@@ -118,8 +118,8 @@
 		)
 		(symbol "CAP-POL_0_0"
 			(rectangle
-				(start -2.032 -1.778)
-				(end -1.143 -1.905)
+				(start -2.032 -1.7145)
+				(end -1.016 -1.8415)
 				(stroke
 					(width 0.1)
 					(type default)
@@ -129,14 +129,26 @@
 				)
 			)
 			(rectangle
-				(start -1.524 -1.27)
-				(end -1.397 -2.159)
+				(start -1.5875 -1.27)
+				(end -1.4605 -2.286)
 				(stroke
 					(width 0.1)
 					(type default)
 				)
 				(fill
 					(type outline)
+				)
+			)
+			(arc
+				(start -2.286 -4.572)
+				(mid -0.127 -3.8912)
+				(end 2.032 -4.572)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(polyline
@@ -153,7 +165,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -3.048) (xy -2.54 -3.048)
+					(xy 0 -3.048) (xy -2.286 -3.048)
 				)
 				(stroke
 					(width 0.254)
@@ -175,21 +187,9 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -2.54 -4.755)
-				(mid 0 -3.9541)
-				(end 2.54 -4.755)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy 2.54 -3.048) (xy 0 -3.048)
+					(xy 2.032 -3.048) (xy 0 -3.048)
 				)
 				(stroke
 					(width 0.254)
@@ -250,7 +250,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 2.54 -1.778 0)
+			(at 2.54 -1.143 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -260,7 +260,7 @@
 			)
 		)
 		(property "Value" "VALUE"
-			(at 2.54 -3.556 0)
+			(at 2.54 -2.921 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -270,12 +270,187 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 -2.54 90)
+			(at 0 -1.905 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "MFG"
+			(at -1.524 -1.143 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MPN"
+			(at 0 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" "DIELECTRIC"
+			(at 2.54 -4.953 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE" "VOLTAGE"
+			(at 7.62 -4.953 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TOLERANCE" "TOLERANCE"
+			(at 0 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "PACKAGE"
+			(at 0 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CAPACITOR-NP_0_0"
+			(pin passive line
+				(at 0 0 270)
+				(length 2.159)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.159)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CAPACITOR-NP_0_1"
+			(polyline
+				(pts
+					(xy -1.016 -2.159) (xy 1.016 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -2.921) (xy 1.016 -2.921)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "INDUCTOR_CUSTOM"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 3.81 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "VALUE?"
+			(at 3.81 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -297,121 +472,157 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
-			(at -1.524 -1.778 0)
+		(property "MFG" "MFG?"
+			(at 3.81 -4.445 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify bottom)
 			)
 		)
-		(property "MPN" "MPN"
-			(at 0 0 0)
+		(property "MPN" "MPN?"
+			(at 3.81 -6.35 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify bottom)
 			)
 		)
-		(property "DIELECTRIC" "DIELECTRIC"
-			(at 2.54 -5.588 0)
+		(property "TURNS" "TURNS?"
+			(at 3.81 -2.54 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify bottom)
 			)
 		)
-		(property "VOLTAGE" "VOLTAGE"
-			(at 7.62 -5.588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+		(symbol "INDUCTOR_CUSTOM_0_1"
+			(polyline
+				(pts
+					(xy 1.27 1.016) (xy 6.35 1.016)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "TOLERANCE" "TOLERANCE"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(stroke
+					(width 0)
+					(type default)
 				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "PACKAGE"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(fill
+					(type none)
 				)
-				(hide yes)
+			)
+			(arc
+				(start 1.27 0)
+				(mid 1.905 0.635)
+				(end 2.54 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 3.175 0.635)
+				(end 3.81 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.81 0)
+				(mid 4.445 0.635)
+				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 0)
+				(mid 5.715 0.635)
+				(end 6.35 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 1.524) (xy 1.27 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.35 0)
+				(mid 6.35 0)
+				(end 6.35 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
 			)
 		)
-		(symbol "CAPACITOR-NP_0_0"
+		(symbol "INDUCTOR_CUSTOM_1_1"
 			(pin passive line
-				(at 0 0 270)
-				(length 2.794)
+				(at 0 0 0)
+				(length 1.27)
 				(name "~"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 0 -6.35 90)
-				(length 2.794)
+				(at 7.62 0 180)
+				(length 1.27)
 				(name "~"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(symbol "CAPACITOR-NP_0_1"
-			(polyline
-				(pts
-					(xy -1.016 -2.794) (xy 1.016 -2.794)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.016 -3.556) (xy 1.016 -3.556)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 		)
@@ -516,7 +727,7 @@
 		(symbol "RESISTOR_0_0"
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 3.175 1.905)
+					(xy 2.54 0) (xy 3.175 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -528,7 +739,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.175 1.905) (xy 4.445 -1.905)
+					(xy 3.175 1.27) (xy 4.445 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -540,7 +751,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 -1.905) (xy 5.715 1.905)
+					(xy 4.445 -1.27) (xy 5.715 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -552,7 +763,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 1.905) (xy 6.985 -1.905)
+					(xy 5.715 1.27) (xy 6.985 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -564,7 +775,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.985 -1.905) (xy 8.255 1.905)
+					(xy 6.985 -1.27) (xy 8.255 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -576,7 +787,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.255 1.905) (xy 9.525 -1.905)
+					(xy 8.255 1.27) (xy 9.525 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -588,7 +799,7 @@
 			)
 			(polyline
 				(pts
-					(xy 9.525 -1.905) (xy 10.16 0)
+					(xy 9.525 -1.27) (xy 10.16 0)
 				)
 				(stroke
 					(width 0.254)
@@ -630,6 +841,329 @@
 					(effects
 						(font
 							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TRANSFORMER_CUSTOM"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at 7.62 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VALUE?"
+			(at 10.16 -2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "MFG?"
+			(at 7.62 -5.08 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "MPN?"
+			(at 7.62 -7.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TURNS" "TURNS?"
+			(at 7.62 -2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VENDOR" "VENDOR?"
+			(at 12.7 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "VPN?"
+			(at 10.16 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TRANSFORMER_CUSTOM_0_1"
+			(arc
+				(start 0 -1.27)
+				(mid 1.27 -2.54)
+				(end 0 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -3.81)
+				(mid 1.27 -5.08)
+				(end 0 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -6.35)
+				(mid 0 -6.35)
+				(end 0 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -6.35)
+				(mid 1.27 -7.62)
+				(end 0 -8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 -1.27) (xy 2.032 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 -8.89) (xy 3.048 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 -3.81)
+				(mid 3.81 -2.54)
+				(end 5.08 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 -6.35)
+				(mid 3.81 -5.08)
+				(end 5.08 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 -6.35)
+				(mid 5.08 -6.35)
+				(end 5.08 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 -8.89)
+				(mid 3.81 -7.62)
+				(end 5.08 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TRANSFORMER_CUSTOM_1_1"
+			(circle
+				(center 0 -2.413)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 5.08 -2.413)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 0 0 270)
+				(length 1.27)
+				(name "H1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 90)
+				(length 1.27)
+				(name "H2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 270)
+				(length 1.27)
+				(name "X1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -10.16 90)
+				(length 1.27)
+				(name "X2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
