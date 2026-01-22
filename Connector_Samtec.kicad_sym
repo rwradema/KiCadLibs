@@ -95,17 +95,6 @@
 			)
 		)
 		(symbol "LSS-150-01-L-DV-A-K-TR_0_0"
-			(rectangle
-				(start -7.62 -63.5)
-				(end 7.62 66.04)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin passive line
 				(at -12.7 63.5 0)
 				(length 5.08)
@@ -1904,6 +1893,19 @@
 							(size 1.016 1.016)
 						)
 					)
+				)
+			)
+		)
+		(symbol "LSS-150-01-L-DV-A-K-TR_1_0"
+			(rectangle
+				(start -7.62 66.04)
+				(end 7.62 -63.5)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
