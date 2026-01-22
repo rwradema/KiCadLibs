@@ -27,6 +27,7 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TEConnectivity:TE_440360-2"
@@ -68,12 +69,12 @@
 			)
 		)
 		(property "MPN" "440360-2"
-			(at 12.7 -81.28 0)
+			(at 13.97 -168.91 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "VENDOR" "DIGIKEY.COM.AU"
@@ -86,7 +87,7 @@
 			)
 		)
 		(property "VPN" "440360-2-ND"
-			(at 12.7 -81.28 0)
+			(at 15.24 -118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
