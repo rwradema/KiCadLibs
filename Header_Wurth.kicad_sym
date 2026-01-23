@@ -1105,7 +1105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 02X08 2.54MM"
+		(property "Description" "CONN HEADER MALE VERT 02X08 2.54MM"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1149,7 +1149,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "HEADER, FEMALE, 2X08"
+		(property "ki_keywords" "HEADER, MALE, 2X08"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1878,7 +1878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Header Connector 02X08 0.100\" (2.54mm) Through Hole Gold"
+		(property "Description" "Header SOCKET 02X08 0.100\" (2.54mm) Through Hole Gold"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1922,7 +1922,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "HEADER MALE 2X8"
+		(property "ki_keywords" "HEADER FEMALE 2X8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1932,17 +1932,6 @@
 			)
 		)
 		(symbol "6130XX21821_61301621821_0_0"
-			(rectangle
-				(start 2.54 1.27)
-				(end 7.62 -19.05)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(polyline
 				(pts
 					(xy 3.375 0) (xy 2.54 0)
@@ -2597,6 +2586,19 @@
 							(size 1.016 1.016)
 						)
 					)
+				)
+			)
+		)
+		(symbol "6130XX21821_61301621821_1_0"
+			(rectangle
+				(start 2.54 1.27)
+				(end 7.62 -19.05)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
