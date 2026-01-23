@@ -14,9 +14,10 @@
 			)
 		)
 	)
-	(property "Value" "${REFERENCE}"
+	(property "Value" "Val**"
 		(at -0.1 0.1 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "5da85324-0a8a-49b3-9f5a-7c8b5ab4d875")
 		(effects
 			(font
@@ -241,6 +242,18 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "a47f3a2a-5f76-4aa5-8c9a-7d4e027a3bde")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "72c69653-fa4a-44e6-9615-0f2378b17e64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "" np_thru_hole circle
 		(at -16.625 -1.1)
