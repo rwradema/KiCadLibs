@@ -1203,7 +1203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps628503.pdf?ts=1770111553009&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct-category%252Fpower-management%252Facdc-dcdc-converters%252Fproducts.html"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps628503.pdf"
 			(at 3.81 -29.21 0)
 			(effects
 				(font
@@ -1424,6 +1424,15 @@
 			)
 		)
 		(symbol "REG_TI_TPS628503_1_1"
+			(text "(2.6V)"
+				(at 6.35 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
 			(text "(0.6V)"
 				(at 16.51 -17.78 0)
 				(effects
@@ -1654,8 +1663,17 @@
 			)
 		)
 		(symbol "REG_TPS564257_1_1"
+			(text "(2.92V)"
+				(at 2.54 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
 			(text "(0.6V)\n"
-				(at 16.51 -10.16 0)
+				(at 17.78 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
