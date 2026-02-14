@@ -1,0 +1,115 @@
+(footprint "CDMT40D30"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "321fb81e-ecf0-4245-a992-9a9a971bd51b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "CDMT40D30"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9cce9c6-65a9-4eef-afdd-d1768dad7905")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52c35288-9919-40a4-8266-da98ce8b07c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcd30ca8-4482-43af-9bc1-1a5b5cbc6457")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.25 -2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "845ae5e5-a8e3-4409-aece-95e0e767d8e5")
+	)
+	(fp_rect
+		(start -2.25 -2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "54413fd3-b34e-4f43-9739-6ecf8e46951e")
+	)
+	(fp_rect
+		(start -2.075 -2.075)
+		(end 2.075 2.075)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "444c521d-8ecc-4182-93dd-d6d44a9accf4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5befb082-4eac-4d66-8a21-9d63320de84d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.185 0)
+		(size 0.98 3.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0c10131a-8a51-4806-8f0d-5e563e9e3343")
+	)
+	(pad "2" smd rect
+		(at 1.185 0)
+		(size 0.98 3.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d8f675f3-7b4b-4877-b8fa-e0e613ec99f5")
+	)
+	(embedded_fonts no)
+)
