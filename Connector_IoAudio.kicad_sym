@@ -235,7 +235,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CON_XLR_IOAUDIO_IO-XLR3-F-EH_1"
+	(symbol "CON_XLR_IOAUDIO_IO-XLR3-M-EH"
 		(pin_names
 			(hide yes)
 		)
@@ -335,7 +335,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CON_XLR_IOAUDIO_IO-XLR3-F-EH_1_0_0"
+		(symbol "CON_XLR_IOAUDIO_IO-XLR3-M-EH_0_0"
 			(pin passive line
 				(at 0 0 0)
 				(length 2.54)
@@ -409,7 +409,7 @@
 				)
 			)
 		)
-		(symbol "CON_XLR_IOAUDIO_IO-XLR3-F-EH_1_0_1"
+		(symbol "CON_XLR_IOAUDIO_IO-XLR3-M-EH_0_1"
 			(rectangle
 				(start 2.54 2.54)
 				(end 11.43 -7.62)
