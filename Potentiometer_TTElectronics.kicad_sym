@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TTELECTRONIC:P160KN"
 			(at 0 0 90)
 			(effects
 				(font
