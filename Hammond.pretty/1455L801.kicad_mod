@@ -1,0 +1,161 @@
+(footprint "1455L801"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d812fc8f-287a-4c46-807d-1d78a7a9d2a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1455L801"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cebf1b0-5b4e-41b5-9db4-09ca4883800b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b532e415-4781-4863-926e-ead16bb7d6fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05102fc1-5897-4bc2-9c44-c80966072384")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -50 -39.625)
+		(end 50 39.625)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "98e073aa-62d1-4a0e-a66a-5c1353c1598e")
+	)
+	(fp_rect
+		(start -51.5 -41.4)
+		(end 51.5 -40)
+		(stroke
+			(width 0.01)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f48d0e3a-8294-4421-b06b-bcd1c1ef12ef")
+	)
+	(fp_rect
+		(start -51.5 -40)
+		(end 51.5 40)
+		(stroke
+			(width 0.01)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1934a50e-9c4a-4c19-8e90-259992883a3c")
+	)
+	(fp_rect
+		(start -51.5 40)
+		(end 51.5 41.4)
+		(stroke
+			(width 0.01)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "16fc3f21-6bd7-422f-aceb-4e6d4da302e8")
+	)
+	(fp_rect
+		(start -50 -39.625)
+		(end -46.5 39.625)
+		(stroke
+			(width 0.01)
+			(type dash)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "9881627b-86f9-4045-9a05-21e5955f3a82")
+	)
+	(fp_rect
+		(start 50 39.625)
+		(end 46.5 -39.625)
+		(stroke
+			(width 0.01)
+			(type dash)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "affdff15-865e-4d4c-a099-a645be9f8913")
+	)
+	(fp_text user "BEZEL GAP"
+		(at 0 -40.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5f5cabfe-1fd9-4e00-a9c5-11470bc183b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "BEZEL GAP"
+		(at 0 40.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c48804d0-60cd-42c9-b5a0-957e070e7066")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d669f069-0588-4b88-8fdb-2b9888bf3b4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
