@@ -754,7 +754,7 @@
 		)
 		(symbol "PROCESSOR_ADI_ADSP21469_2_0"
 			(pin passive line
-				(at 38.1 -10.16 180)
+				(at 38.1 -5.08 180)
 				(length 5.08)
 				(name "LDAT0_0"
 					(effects
@@ -772,7 +772,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -12.7 180)
+				(at 38.1 -7.62 180)
 				(length 5.08)
 				(name "LDAT0_1"
 					(effects
@@ -790,7 +790,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -15.24 180)
+				(at 38.1 -10.16 180)
 				(length 5.08)
 				(name "LDAT0_2"
 					(effects
@@ -808,7 +808,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -17.78 180)
+				(at 38.1 -12.7 180)
 				(length 5.08)
 				(name "LDAT0_3"
 					(effects
@@ -826,7 +826,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -20.32 180)
+				(at 38.1 -15.24 180)
 				(length 5.08)
 				(name "LDAT0_4"
 					(effects
@@ -844,7 +844,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -22.86 180)
+				(at 38.1 -17.78 180)
 				(length 5.08)
 				(name "LDAT0_5"
 					(effects
@@ -862,7 +862,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -25.4 180)
+				(at 38.1 -20.32 180)
 				(length 5.08)
 				(name "LDAT0_6"
 					(effects
@@ -898,7 +898,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -27.94 180)
+				(at 38.1 -22.86 180)
 				(length 5.08)
 				(name "LDAT0_7"
 					(effects
@@ -916,7 +916,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -5.08 180)
+				(at 38.1 -2.54 180)
 				(length 5.08)
 				(name "LCLK_0"
 					(effects
@@ -934,7 +934,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -55.88 180)
+				(at 38.1 -76.2 180)
 				(length 5.08)
 				(name "MLBCLK"
 					(effects
@@ -952,7 +952,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -58.42 180)
+				(at 38.1 -78.74 180)
 				(length 5.08)
 				(name "MLBDAT"
 					(effects
@@ -988,7 +988,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -30.48 180)
+				(at 38.1 -33.02 180)
 				(length 5.08)
 				(name "LDAT1_0"
 					(effects
@@ -1006,7 +1006,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -63.5 180)
+				(at 38.1 -83.82 180)
 				(length 5.08)
 				(name "MLBSIG"
 					(effects
@@ -1024,7 +1024,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -66.04 180)
+				(at 38.1 -86.36 180)
 				(length 5.08)
 				(name "MLBSO"
 					(effects
@@ -1042,7 +1042,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -60.96 180)
+				(at 38.1 -81.28 180)
 				(length 5.08)
 				(name "MLBDO"
 					(effects
@@ -1060,7 +1060,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -33.02 180)
+				(at 38.1 -35.56 180)
 				(length 5.08)
 				(name "LDAT1_1"
 					(effects
@@ -1078,7 +1078,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -35.56 180)
+				(at 38.1 -38.1 180)
 				(length 5.08)
 				(name "LDAT1_2"
 					(effects
@@ -1096,7 +1096,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -38.1 180)
+				(at 38.1 -40.64 180)
 				(length 5.08)
 				(name "LDAT1_3"
 					(effects
@@ -1114,7 +1114,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -40.64 180)
+				(at 38.1 -43.18 180)
 				(length 5.08)
 				(name "LDAT1_4"
 					(effects
@@ -1132,7 +1132,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -43.18 180)
+				(at 38.1 -45.72 180)
 				(length 5.08)
 				(name "LDAT1_5"
 					(effects
@@ -1150,7 +1150,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -45.72 180)
+				(at 38.1 -48.26 180)
 				(length 5.08)
 				(name "LDAT1_6"
 					(effects
@@ -1168,7 +1168,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -7.62 180)
+				(at 38.1 -30.48 180)
 				(length 5.08)
 				(name "LCLK_1"
 					(effects
@@ -1186,7 +1186,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -48.26 180)
+				(at 38.1 -50.8 180)
 				(length 5.08)
 				(name "LDAT1_7"
 					(effects
@@ -1204,7 +1204,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -2.54 180)
+				(at 38.1 -27.94 180)
 				(length 5.08)
 				(name "LACK_1"
 					(effects
@@ -2605,7 +2605,7 @@
 				)
 			)
 			(pin passive line
-				(at 48.26 -60.96 180)
+				(at 48.26 -58.42 180)
 				(length 5.08)
 				(name "DDR_DM1"
 					(effects
