@@ -889,7 +889,7 @@
 		(property "Reference" "U"
 			(at 12.7 3.81 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -943,8 +943,7 @@
 		(property "MFG" "Texas Inst"
 			(at 12.7 -21.59 0)
 			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -954,8 +953,7 @@
 		(property "MPN" "TPS51200AQDRCRQ1"
 			(at 12.7 -24.13 0)
 			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,7 +995,7 @@
 		)
 		(symbol "REG_DDR_TI_TPS51200A_0_0"
 			(pin passive line
-				(at 0 0 0)
+				(at 0 -15.24 0)
 				(length 2.54)
 				(name "REFIN"
 					(effects
@@ -1015,7 +1013,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -10.16 0)
+				(at 0 -5.08 0)
 				(length 2.54)
 				(name "VLDOIN"
 					(effects
@@ -1033,7 +1031,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -12.7 0)
+				(at 25.4 -12.7 180)
 				(length 2.54)
 				(name "VO"
 					(effects
@@ -1051,7 +1049,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -15.24 0)
+				(at 25.4 -17.78 180)
 				(length 2.54)
 				(name "PGND"
 					(effects
@@ -1069,7 +1067,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 0)
+				(at 25.4 -15.24 180)
 				(length 2.54)
 				(name "VOSNS"
 					(effects
@@ -1087,7 +1085,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -17.78 180)
+				(at 25.4 -2.54 180)
 				(length 2.54)
 				(name "REFOUT"
 					(effects
@@ -1105,7 +1103,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -15.24 180)
+				(at 0 -2.54 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -1123,7 +1121,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -12.7 180)
+				(at 0 -17.78 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1141,7 +1139,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -10.16 180)
+				(at 25.4 0 180)
 				(length 2.54)
 				(name "PGOOD"
 					(effects
@@ -1159,7 +1157,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 0 180)
+				(at 0 0 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
