@@ -1,0 +1,137 @@
+(footprint "ENCL_ALTRONICS_H5031"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "15b76355-17c9-4e13-8d68-d8c2c62dbcc8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bc67e77-2a93-4dc0-a1c7-bdd32df9f5c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bacad129-ad0c-4580-a35a-d667c0714dd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "961c462c-8adb-414f-8ece-83ac66f81985")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -241.25 126.5)
+		(end 241.25 129)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "06c3b27c-4024-4be4-a623-26eca7b661d6")
+	)
+	(fp_rect
+		(start -215 -126.5)
+		(end 215 -113.5)
+		(stroke
+			(width 0.01)
+			(type dash_dot)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "17841162-ac03-43b3-9700-ff20ab3cba61")
+	)
+	(fp_rect
+		(start -215 -126.5)
+		(end 215 126.5)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "848d02d5-564f-4076-b5aa-1d1d08a211f3")
+	)
+	(fp_rect
+		(start -215 -113)
+		(end -202 115.95)
+		(stroke
+			(width 0.01)
+			(type dash_dot)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b6a6b9c3-ad5f-48f2-8cf3-90f5fae8dbd7")
+	)
+	(fp_rect
+		(start -215 116.4)
+		(end 215 126.5)
+		(stroke
+			(width 0.01)
+			(type dash_dot)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "88be352c-f819-4e6b-93b8-cd09da20d78d")
+	)
+	(fp_rect
+		(start 202 -113)
+		(end 215 115.95)
+		(stroke
+			(width 0.01)
+			(type dash_dot)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6df02d41-de1e-4f2b-85ff-af52d2ee7083")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e680c7e8-62e9-42bd-a013-6a8c7b050802")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
