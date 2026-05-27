@@ -132,24 +132,6 @@
 		(symbol "VCA_THATCORP_4316_1_0"
 			(unit_name "PWR")
 			(pin passive line
-				(at 22.86 0 180)
-				(length 2.54)
-				(name "VREF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 22.86 -5.08 180)
 				(length 2.54)
 				(name "FILTER"
@@ -220,6 +202,24 @@
 		)
 		(symbol "VCA_THATCORP_4316_2_0"
 			(unit_name "VCA")
+			(pin passive line
+				(at 17.78 -2.54 180)
+				(length 4.445)
+				(name "VREF"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at 7.62 -7.62 90)
 				(length 2.54)
