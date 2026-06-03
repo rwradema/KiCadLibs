@@ -1,13 +1,14 @@
 (footprint "ENCL_ALTRONICS_H5031"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "15b76355-17c9-4e13-8d68-d8c2c62dbcc8")
+		(hide yes)
+		(uuid "cb75e45c-8f95-4d9b-8699-6ad9db6bfabe")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2bc67e77-2a93-4dc0-a1c7-bdd32df9f5c0")
+		(uuid "3910e83d-9948-4cac-9e9a-a651fb4bd582")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bacad129-ad0c-4580-a35a-d667c0714dd2")
+		(uuid "cc312668-8f63-4257-a6e6-f5dbcec13144")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "961c462c-8adb-414f-8ece-83ac66f81985")
+		(uuid "7595b4c9-d103-46a0-82c1-cd6b6e7f9fe2")
 		(effects
 			(font
 				(size 1 1)
@@ -55,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -241.25 126.5)
 		(end 241.25 129)
@@ -64,7 +66,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "06c3b27c-4024-4be4-a623-26eca7b661d6")
+		(uuid "3322c7d2-5346-4180-8a22-3232b840e7bc")
 	)
 	(fp_rect
 		(start -215 -126.5)
@@ -75,7 +77,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "17841162-ac03-43b3-9700-ff20ab3cba61")
+		(uuid "79b1cef0-62ff-4816-a2ad-162654bdc36a")
 	)
 	(fp_rect
 		(start -215 -126.5)
@@ -86,7 +88,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "848d02d5-564f-4076-b5aa-1d1d08a211f3")
+		(uuid "3232a472-f3fb-447d-b6b2-39c50b01054c")
 	)
 	(fp_rect
 		(start -215 -113)
@@ -97,7 +99,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "b6a6b9c3-ad5f-48f2-8cf3-90f5fae8dbd7")
+		(uuid "f0230d1c-9ff5-4cca-ade2-dccf75c06523")
 	)
 	(fp_rect
 		(start -215 116.4)
@@ -108,7 +110,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "88be352c-f819-4e6b-93b8-cd09da20d78d")
+		(uuid "70e0530d-313e-4f44-b2fe-4575363e91c0")
 	)
 	(fp_rect
 		(start 202 -113)
@@ -119,13 +121,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "6df02d41-de1e-4f2b-85ff-af52d2ee7083")
+		(uuid "a8bc9fea-7c76-43ed-b918-0a330505d3d9")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e680c7e8-62e9-42bd-a013-6a8c7b050802")
+		(uuid "3f7e5b29-237f-4505-85a3-aa8a795780cc")
 		(effects
 			(font
 				(size 1 1)
