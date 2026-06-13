@@ -7,11 +7,11 @@
 		(at 0 -3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "4605bb8a-996c-4221-ab24-10bdfc32fe31")
+		(uuid "69ab2a17-b4bf-4e72-88d4-e30ca32662b8")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.125)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4f39e144-c4a5-4682-a40f-2842cef91052")
+		(uuid "274f54cc-0499-4ea5-bf4d-977f12a0c76f")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bf295eec-4dcb-4b39-999c-e21f731c4168")
+		(uuid "4bcbf2aa-8eda-42e8-a8db-f02c84558069")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f35be443-4377-4270-be0e-fd89ddd31ea6")
+		(uuid "bca3d68f-55a0-474d-a006-740b3f4a5ee1")
 		(effects
 			(font
 				(size 1 1)
@@ -65,7 +65,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "a4875083-c030-49da-ba5d-8d05921d8209")
+		(uuid "15a4d7ce-1c16-4a9c-b34c-b1eefd114f19")
 	)
 	(fp_circle
 		(center 0 0)
@@ -76,7 +76,7 @@
 		)
 		(fill yes)
 		(layer "F.Adhes")
-		(uuid "9ba439bc-71cd-4089-a5eb-e1d6e1121eb8")
+		(uuid "bb26f274-4bed-46ef-a7ad-aaa04a06b7d0")
 	)
 	(fp_rect
 		(start -2.25 -2.25)
@@ -87,7 +87,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "57968d04-0ebb-49c6-a28e-4877e0c8e8fd")
+		(uuid "5b67266f-0b7b-4232-933e-1743e736120b")
 	)
 	(fp_rect
 		(start -2 -2)
@@ -98,13 +98,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "e06da245-d27f-4e40-ad28-25f541dea264")
+		(uuid "814cfe05-9979-48e9-997f-e80abf35253f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "c6233988-6437-4176-ac99-5ef262df74d3")
+		(uuid "c32bd468-bf86-4e3b-be3b-9082feb3d04d")
 		(effects
 			(font
 				(size 1 1)
@@ -116,13 +116,13 @@
 		(at -1.35 0)
 		(size 1.3 4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7c584bdd-9250-470e-a8fa-ba7a61c13a3b")
+		(uuid "1dff4228-c693-4ba8-bb33-c151615938dd")
 	)
 	(pad "2" smd rect
 		(at 1.35 0)
 		(size 1.3 4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "4d33c3d2-fa33-4606-8298-6e636a7a9433")
+		(uuid "4a949397-504d-40cb-9640-2a89d2b219cb")
 	)
 	(embedded_fonts no)
 )
