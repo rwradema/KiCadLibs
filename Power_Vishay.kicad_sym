@@ -1644,9 +1644,6 @@
 		(embedded_fonts no)
 	)
 	(symbol "SCHOTTKY_VISHAY_BAS70-00-HE3_A-08"
-		(pin_numbers
-			(hide yes)
-		)
 		(pin_names
 			(hide yes)
 		)
@@ -1677,7 +1674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vishay-Siliconix:DO-220AA"
+		(property "Footprint" "Vishay-Siliconix:sot23-3"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1826,7 +1823,26 @@
 						)
 					)
 				)
-				(number "A"
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 17.78 0 270)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1844,7 +1860,7 @@
 						)
 					)
 				)
-				(number "K"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
