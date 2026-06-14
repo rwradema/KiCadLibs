@@ -374,7 +374,7 @@
 			)
 		)
 		(property "TOLERANCE" "TOLERANCE"
-			(at 0 0.635 0)
+			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(hide yes)
@@ -385,9 +385,20 @@
 			)
 		)
 		(property "PACKAGE" "PACKAGE"
-			(at 0 0.635 0)
+			(at 2.54 -6.35 0)
 			(show_name no)
 			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_fp_filters" "CAP-*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
