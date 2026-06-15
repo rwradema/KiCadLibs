@@ -7,7 +7,7 @@
 		(at 0 -3.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "3171e20e-53ea-40bf-828e-b0e97e1ba379")
+		(uuid "1a6f8b89-102e-4a6e-8a52-a7d7dcac67a3")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "32a03be2-a23c-499a-b6e3-e9dac55e0e9a")
+		(uuid "f263c386-09f5-4788-89d4-987286854068")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "947f8d57-8d3a-41a0-bb16-e4749cfb4092")
+		(uuid "a537e76a-e5c5-4c98-ac69-11a68dc02f5f")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b3d22b15-fa93-45a2-9c6e-3a3dcaab8401")
+		(uuid "daa95e30-2467-489b-8b03-6d09e84c9366")
 		(effects
 			(font
 				(size 1 1)
@@ -65,7 +65,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "0d07c032-a33c-49c2-af33-873be5c58e67")
+		(uuid "f1adb855-9736-4e06-91dd-0c97a40c904f")
 	)
 	(fp_poly
 		(pts
@@ -77,7 +77,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "ec09f995-2384-4f7d-b475-5a1206a0ceb2")
+		(uuid "5d0dd5ae-ac14-4cc3-97fc-6690b74e63bf")
 	)
 	(fp_circle
 		(center 0 0)
@@ -88,7 +88,7 @@
 		)
 		(fill yes)
 		(layer "F.Adhes")
-		(uuid "11dff2ab-72a9-43e7-982d-497268fbcff5")
+		(uuid "baccc213-f224-4e1e-b5de-1e7e571f1a74")
 	)
 	(fp_rect
 		(start -2.75 -2.25)
@@ -99,7 +99,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "cff9e675-2430-41d7-9daa-af00c89eefca")
+		(uuid "c2a06da6-6336-44bb-87ba-09494ea7d9c0")
 	)
 	(fp_rect
 		(start -2.5 -1.6)
@@ -110,7 +110,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "77bab3d2-cc99-4cae-9766-e33ad8aa7919")
+		(uuid "dd5b104f-3a72-4b04-9ec6-2209f06614f3")
 	)
 	(fp_circle
 		(center -1.75 1)
@@ -121,13 +121,13 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "6491bebf-5e96-487a-a54d-f30528dcf46f")
+		(uuid "990f7f23-054d-40fd-94e1-4473acf6e48d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d8d8618e-a259-4f80-b697-e703dafa9203")
+		(uuid "48183141-a71e-498f-aa20-7780502e1373")
 		(effects
 			(font
 				(size 1 1)
@@ -139,25 +139,36 @@
 		(at -1.27 1.1)
 		(size 1.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "0915fbae-f372-4d3c-a907-bb9080cb55d3")
+		(uuid "3cf802e4-6421-4fa8-a4fc-a4575d73c3f8")
 	)
 	(pad "2" smd rect
 		(at 1.27 1.1)
 		(size 1.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b11c671b-2b07-4b73-8a32-6958c3ed7058")
+		(uuid "5befe405-bd12-4010-81c7-94d4326e9aac")
 	)
 	(pad "3" smd rect
 		(at 1.27 -1.1)
 		(size 1.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b61254e0-5e1c-4d41-8a2b-f0e1c6240416")
+		(uuid "9fcb97ba-0397-495d-ae4e-53917a88edf2")
 	)
 	(pad "4" smd rect
 		(at -1.27 -1.1)
 		(size 1.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "6069987d-f388-4be6-82f1-74b78465b96e")
+		(uuid "12cdcea4-6132-4934-8e98-30b8d76f5bcd")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCadLibs/stepfiles/Abracon/ASFL1.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

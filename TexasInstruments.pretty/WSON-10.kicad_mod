@@ -7,7 +7,7 @@
 		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "ee8005e9-6a4f-47e6-9fa0-ed19b2f9407b")
+		(uuid "938a898e-d988-4809-b31b-6416132f3d71")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e512fc14-5172-4b6b-b2a4-4b827a5be520")
+		(uuid "ddf6bf9e-80d7-498e-b03a-b104de078d94")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "63bbf932-1aa7-49d0-a55d-8538b9586903")
+		(uuid "6a0cedcb-1273-4bd1-af1e-379e6d80fa55")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "18e99b34-8b69-4a0f-bb66-59d431a8841a")
+		(uuid "78215b7a-11e3-4f32-9c66-3efaae39d595")
 		(effects
 			(font
 				(size 1 1)
@@ -65,7 +65,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "7259054b-7dd6-4195-ab4d-613670b701f7")
+		(uuid "bcd1245c-226c-4893-bd69-1b5044774213")
 	)
 	(fp_rect
 		(start 0.125 -1.7)
@@ -76,7 +76,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "7212d027-9baa-4fdf-9102-cf335807dbd5")
+		(uuid "8c8ade37-8bdf-4b52-8c58-ddd3ac8c597c")
 	)
 	(fp_rect
 		(start -1.8 -1.6)
@@ -87,7 +87,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "73dc2769-bf3e-4d67-b028-c31e24ff9271")
+		(uuid "5581f2a8-5cac-4393-b477-41c1dbb8ac1a")
 	)
 	(fp_poly
 		(pts
@@ -99,7 +99,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "1614f0ae-6366-41db-b995-28713addd086")
+		(uuid "a213d3ec-63a0-404f-b1ea-d0ef673ed3ab")
 	)
 	(fp_rect
 		(start -0.75 -1.16)
@@ -110,7 +110,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "d41382f7-8322-44d3-afd9-cfdfa05492b6")
+		(uuid "b960612e-c86c-474f-bfa4-a423beff4a77")
 	)
 	(fp_rect
 		(start -0.75 0.1)
@@ -121,7 +121,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "26c01a2e-f088-4f30-95dd-d46faba3a782")
+		(uuid "93a92da4-9972-41a6-9949-d2780483f2d7")
 	)
 	(fp_rect
 		(start -0.375 -1.7)
@@ -132,7 +132,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "78e3de1e-ccb2-438e-9b2b-d097ed247a65")
+		(uuid "2fbd5c46-ca72-481e-b03e-611d2687b894")
 	)
 	(fp_rect
 		(start -0.375 1.36)
@@ -143,7 +143,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "8d26e394-050c-4607-8927-4419a1a71998")
+		(uuid "2f0fd742-912d-4c44-ba29-8eed1f885870")
 	)
 	(fp_rect
 		(start 0.125 -1.7)
@@ -154,7 +154,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "a665451d-5d8f-4c3a-8842-3cbbeceec230")
+		(uuid "149ae9c7-b5b7-4f11-9d10-38ed2e5aba9c")
 	)
 	(fp_rect
 		(start 0.125 1.36)
@@ -165,7 +165,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "ca6549a2-86ac-487e-8d2b-5635043815c4")
+		(uuid "7617360f-8af4-4775-95c9-62da7cab8575")
 	)
 	(fp_rect
 		(start -1.8 -1.6)
@@ -176,7 +176,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "bee083aa-95e9-45da-a68d-1017ad630b64")
+		(uuid "650f8099-c5e6-4789-a5ad-97625b13e9df")
 	)
 	(fp_rect
 		(start -1.5 -1.5)
@@ -187,7 +187,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "e6c08147-c5b1-445a-8492-443f67310164")
+		(uuid "ab5766af-9502-4bcc-856f-91760b52d124")
 	)
 	(fp_circle
 		(center -1 -1.2)
@@ -198,13 +198,13 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "308695e7-7f94-4280-8b99-5373453ec810")
+		(uuid "f3b123bc-ba38-4800-b0c4-21192b9061ef")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "a77717db-9e5e-4cc5-b093-5515512f85a5")
+		(uuid "949e9022-57fd-457d-9555-af14ac1d90a2")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -217,70 +217,70 @@
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "c9d3bd12-7ee6-48e2-ad47-1c7dca17ffd3")
+		(uuid "3ade3aef-4609-4f27-beb3-a706f6d366ec")
 	)
 	(pad "2" smd roundrect
 		(at -1.4 -0.5)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "59a7472d-c731-4099-8be3-064866e2bdec")
+		(uuid "86a8796c-061c-49e4-860e-58b48a347234")
 	)
 	(pad "3" smd roundrect
 		(at -1.4 0)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "58594c8a-377d-4d7c-94ae-91bd6ce7dd3a")
+		(uuid "1d363b0e-0ee3-4748-a17f-9df95589b55a")
 	)
 	(pad "4" smd roundrect
 		(at -1.4 0.5)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "79f0de66-cf6f-4a4f-9fe4-a3219d666ea9")
+		(uuid "4ee42f51-c6ba-4017-9040-602adf808c1e")
 	)
 	(pad "5" smd roundrect
 		(at -1.4 1)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "cd0c4a1f-fcb0-42d7-8299-1be2a2cd81d7")
+		(uuid "03d4dd24-bc87-495f-b584-f57d0139e95d")
 	)
 	(pad "6" smd roundrect
 		(at 1.4 1)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "7e415645-b264-40fe-a88c-dc43ceede6ba")
+		(uuid "029aaaed-adb1-419b-b348-b424ab20788a")
 	)
 	(pad "7" smd roundrect
 		(at 1.4 0.5)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "42377573-62d6-4288-8c0c-94d4f9129f52")
+		(uuid "8fea1635-dfbf-419f-8324-d4833c520f74")
 	)
 	(pad "8" smd roundrect
 		(at 1.4 0)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "129dc243-390f-4e69-89a7-20822f782f57")
+		(uuid "059a8632-4f73-49fa-aa45-c01d53cb2c42")
 	)
 	(pad "9" smd roundrect
 		(at 1.4 -0.5)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "ca13dfe3-53f2-4c2b-b316-05273063f8d7")
+		(uuid "dd786c97-ca00-4b94-bf9b-52e3b0aa7a6a")
 	)
 	(pad "10" smd roundrect
 		(at 1.4 -1)
 		(size 0.6 0.24)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "10f53b6d-05b2-48e4-9b46-a84c71874147")
+		(uuid "9e174ccb-98fd-480b-95d9-c26dcf6506b7")
 	)
 	(pad "PAD" smd custom
 		(at 0 0)
@@ -304,7 +304,18 @@
 				(fill yes)
 			)
 		)
-		(uuid "87b930c8-a12c-405c-bfff-e8a3265e44ae")
+		(uuid "49b067f0-659e-45a9-9af9-e61b6d44fbdf")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCadLibs/stepfiles/TexasInstruments/DSC0010J.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -7,7 +7,7 @@
 		(at 0 20 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b42521ce-37c9-4b29-b712-1e1bdcbb2628")
+		(uuid "ba9a117d-1410-40ba-9dd1-a2f55e4915e7")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7d46ba4d-8f5e-4479-9b75-334727e4d9ec")
+		(uuid "f2246068-9e32-479f-ba4e-8c2aa48cd0b2")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b61634bc-6379-44f9-8b43-3a55bdd173c1")
+		(uuid "a425ffaf-145e-4274-9ede-5ffd2223bc0a")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b49e1319-9eb6-4ee8-9707-ba3a57c9282b")
+		(uuid "6f5015c5-9319-44ee-b41c-4edc305df946")
 		(effects
 			(font
 				(size 1 1)
@@ -58,55 +58,55 @@
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -11 2.8)
-		(end -11 18.5)
+		(end -11 20)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c590434a-4c35-4543-ba42-bf294accc479")
+		(uuid "ca087ab0-eaea-4222-8826-de5d5c2c2dea")
 	)
 	(fp_line
-		(start -11 18.5)
-		(end 11 18.5)
+		(start -11 20)
+		(end 11 20)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "8b7b73fd-2143-4a50-8439-147233438c32")
+		(uuid "1c00bd03-a558-4075-9db6-3a5cf9fbb493")
 	)
 	(fp_line
-		(start 11 18.5)
+		(start 11 20)
 		(end 11 2.8)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c3034dd6-91f7-4d8e-882a-12c47f1b5ea9")
+		(uuid "7ba7f179-024b-42d4-89a3-a8949f25f8f4")
 	)
 	(fp_rect
 		(start -11.5 -2.5)
-		(end 11.5 18.5)
+		(end 11.5 20)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "2494d2c2-3d47-4ace-828e-8929fbdc935d")
+		(uuid "e7369738-c64f-4640-bf06-3baea2fea229")
 	)
 	(fp_rect
 		(start -11 -2.6)
-		(end 11 18.3)
+		(end 11 19.8)
 		(stroke
 			(width 0.01)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "99b4604b-a25a-4d27-b8e7-55b8a23b3183")
+		(uuid "a1f77ea1-c4a4-4f38-ab62-6a00c15064ba")
 	)
 	(fp_rect
 		(start -11 -2.5)
@@ -117,12 +117,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "7bee736b-d3a8-4b5e-b13b-c1f81cf027a9")
+		(uuid "482c5003-fe9a-4d79-ae8a-be3ab60208fc")
 	)
 	(fp_text user "FLANGE"
 		(at 0 -1 0)
 		(layer "F.Fab")
-		(uuid "6a1ad788-17f4-4fc3-bec9-bbfe50058c68")
+		(uuid "4613c866-364b-452b-ac37-4a7012458452")
 		(effects
 			(font
 				(size 1 1)
@@ -133,7 +133,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(layer "F.Fab")
-		(uuid "f6acb9bd-c557-42f5-81dd-83c066a3c586")
+		(uuid "d33c3265-cfce-45cd-8af9-c64e646a23bb")
 		(effects
 			(font
 				(size 1 1)
@@ -146,46 +146,57 @@
 		(size 1.6 1.6)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
-		(uuid "1598a67d-4d08-4ee1-84a1-e53f0e30b6f5")
+		(uuid "f55cd07b-fafc-4100-a0d8-6421433a6f39")
 	)
 	(pad "" np_thru_hole circle
 		(at 3.81 8.89)
 		(size 1.6 1.6)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
-		(uuid "b5c1c9c8-55d8-4da6-93a4-50fced36f889")
+		(uuid "bbddb00b-bb54-41c9-972e-7ff0dcfb4621")
 	)
 	(pad "1" thru_hole circle
-		(at -3.81 12.7)
+		(at 3.81 17.78)
 		(size 3 3)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "7db67484-3f91-4d3a-a77a-e919cd546568")
+		(uuid "4f847d65-775b-422d-aa97-2bc6b180b598")
 	)
 	(pad "2" thru_hole circle
-		(at 3.81 13.33)
+		(at -3.81 17.78)
 		(size 3 3)
-		(drill 1.4)
+		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "cc8a8a1d-0da9-46cc-b06e-8cdbe8e5dc2a")
+		(uuid "c824a7f2-17e5-4742-a6b7-46582dfd7c5b")
 	)
 	(pad "3" thru_hole circle
-		(at 0 17.15)
+		(at 0 17.78)
 		(size 2.5 2.5)
-		(drill 1.2)
+		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "d9170783-4f7c-4d26-9957-01c15e7ed7b7")
+		(uuid "2d870e25-ff1a-4d95-a3b9-431970909166")
 	)
 	(pad "GND" thru_hole circle
-		(at -8.25 6.98)
+		(at 0 12.7)
 		(size 2.5 2.5)
-		(drill 1.2)
+		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a05d4b9b-e699-488e-93cf-26a79a18a842")
+		(uuid "f962a278-da5d-4b50-95b1-6de2bf3c3fd0")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCadLibs/stepfiles/IoAudio/IO-XLR3-M-EH.wrl"
+		(offset
+			(xyz 0.25 -8.5 -4)
+		)
+		(scale
+			(xyz 0.39 0.39 0.39)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

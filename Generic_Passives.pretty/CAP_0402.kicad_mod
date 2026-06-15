@@ -7,7 +7,7 @@
 		(at 0 -1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "57a628dc-c3c4-45ef-84ef-bf097b790739")
+		(uuid "7d211cd4-182c-4665-9aac-2249e10a6096")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "aa050245-32fb-4c29-a23c-c48499bd478c")
+		(uuid "c08367ff-e53f-4fcf-9d61-ceb828218da2")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "57466f08-da1c-4ef2-a557-f1afb18cb65e")
+		(uuid "4f2cbe65-4a1e-499f-81d8-12a969ab4cd2")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "996ae606-bc2d-4e58-a1c4-f0386e080c85")
+		(uuid "a2329a73-2d72-43cd-a674-505c4251daf1")
 		(effects
 			(font
 				(size 1 1)
@@ -65,7 +65,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "00b44265-dce3-442e-9438-7ba0e5a35f38")
+		(uuid "9db956a1-3f08-43c4-8146-c95ff78e1334")
 	)
 	(fp_circle
 		(center 0 0)
@@ -76,7 +76,7 @@
 		)
 		(fill no)
 		(layer "F.Adhes")
-		(uuid "b6295848-3f46-4b4d-b5f4-eb831256809d")
+		(uuid "7eb94354-6b98-4d8b-9c74-d1b6d878306b")
 	)
 	(fp_rect
 		(start -0.9 -0.4)
@@ -87,7 +87,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "7e44463c-6315-4fd0-95a8-f3856b230171")
+		(uuid "6e2d0201-cc8b-4287-9f57-90833fb7dca3")
 	)
 	(fp_rect
 		(start -0.5 -0.25)
@@ -98,12 +98,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "f7f6a983-9be1-46b5-a0bb-c19f58ff5d80")
+		(uuid "8b593894-71ee-4629-adbc-8aeccabe76c7")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "6eca6ff2-b3ca-415d-94b5-840c933946c4")
+		(uuid "c7591721-7292-4e1f-b81a-445123c5dd85")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -115,13 +115,24 @@
 		(at -0.5 0)
 		(size 0.5 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "baab9e6d-6397-41a6-a6ea-c64fd6e2d51d")
+		(uuid "c6b4cf83-a99d-4892-b619-e80687f2602b")
 	)
 	(pad "2" smd rect
 		(at 0.5 0)
 		(size 0.5 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "07e47dce-dab6-44b8-8c36-0f1e19a35b3e")
+		(uuid "f6060358-e6df-46f7-91c9-b69ee94b025e")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCadLibs/stepfiles/Generic-Passives/GRM155R71C103KA01J.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

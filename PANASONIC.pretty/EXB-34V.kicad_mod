@@ -1,13 +1,13 @@
 (footprint "EXB-34V"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "3f3b7b1b-fbdd-47b6-948e-c51251117c8e")
+		(uuid "5a46b604-44c0-45b2-87e0-cffacf2b4439")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f1a814be-9af3-43a3-8334-b27740e7ed60")
+		(uuid "69176b33-1e86-4021-b392-830505dd76dd")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c524c059-1917-4781-8347-a27ab744a12d")
+		(uuid "9d56dbab-b3e4-4b96-829e-682aad5c366d")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "79b1206a-c7f4-4c3a-912f-23a2ea9886fc")
+		(uuid "73f351df-6970-4368-a39b-b0146e5412a9")
 		(effects
 			(font
 				(size 1 1)
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -0.9 -1.1)
 		(end 0.9 1.1)
@@ -64,7 +65,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "3968722f-3ffb-49cc-8aae-ee675002599a")
+		(uuid "e92e51b7-31f7-4ce0-b3de-c256ff5697cd")
 	)
 	(fp_rect
 		(start -1 -1.2)
@@ -75,7 +76,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "054956a5-2ee5-4ce3-9431-32261cbd6953")
+		(uuid "2e102682-480c-45dc-a753-ee062b1046d9")
 	)
 	(fp_rect
 		(start -0.8 -0.8)
@@ -86,12 +87,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "4d550c37-7d87-440c-8aea-addf7679a274")
+		(uuid "7059a314-8153-4a2f-9b56-2c9e923f4b64")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "bf1ac3b2-ac7d-44f5-85b3-03c6e9a52a00")
+		(uuid "ea1948f9-137e-4e1d-99d3-e9b91cbb7f4b")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -104,28 +105,39 @@
 		(size 0.65 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "1fdf7a72-94b6-4253-8ea6-6d6138186982")
+		(uuid "11031b56-e6b5-4431-837d-1289699de721")
 	)
 	(pad "1B" smd roundrect
 		(at -0.4 -0.7)
 		(size 0.65 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "d58d7e53-e7dd-406e-8a0b-0bb0c03127fd")
+		(uuid "fb0e3fa0-892d-4f79-8a55-3c5dfd60c6ff")
 	)
 	(pad "2A" smd roundrect
 		(at 0.4 0.7)
 		(size 0.65 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "5edf4491-44b2-479a-bc54-8e701f9c7821")
+		(uuid "2e8baf2d-6315-4e48-8e8c-ffafea57e75c")
 	)
 	(pad "2B" smd roundrect
 		(at 0.4 -0.7)
 		(size 0.65 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "8f201de5-3c9e-49ff-8ffd-6cdf80384eca")
+		(uuid "8167ba5f-ce5f-485a-b91c-c972df655819")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCadLibs/stepfiles/Panasonic/EXB34V122JV.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

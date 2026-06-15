@@ -1,13 +1,13 @@
 (footprint "SOT-5X3"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "a19b3bfb-317f-4b79-a234-3ef28932ed9a")
+		(uuid "f584bffb-8558-4966-ab30-167b5275e4ee")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e1bfeaa1-addc-4574-bde8-28c7ad4e16d4")
+		(uuid "924e6ec2-ec7d-48eb-9e60-c14ae3eab469")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ccf057c1-fe7f-4d94-bfe8-fbd48255e5ee")
+		(uuid "cf66775a-57ab-4f54-addf-74ee45cc64d0")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cedb5f2b-176c-4c06-a509-9bd39f7e4e8b")
+		(uuid "4897e412-2f73-4980-aeac-acfa697e572b")
 		(effects
 			(font
 				(size 1 1)
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -1.25 -1.25)
 		(end 1.25 1.25)
@@ -64,7 +65,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "293a4891-c44e-4729-893f-a4e2709c3649")
+		(uuid "05db34b7-db20-4b81-beaa-a09107c7e0e6")
 	)
 	(fp_poly
 		(pts
@@ -76,7 +77,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "1c849210-6eb1-42e9-8b39-45e639088371")
+		(uuid "c5ef0d52-a89f-414d-ba8c-4d54bdee369f")
 	)
 	(fp_rect
 		(start -1.25 -1.25)
@@ -87,7 +88,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "910f1124-23a0-4200-b3af-80b387e92c4a")
+		(uuid "2c7fc0a4-7807-4705-bf2e-ae6543258af1")
 	)
 	(fp_rect
 		(start -0.85 -1.1)
@@ -98,7 +99,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "a0f0b9c5-ae59-44da-8603-5ce8184b25bf")
+		(uuid "e3460cde-c388-4a9e-ae2f-61434031456a")
 	)
 	(fp_circle
 		(center -0.5 -0.75)
@@ -109,13 +110,13 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "3a60381f-a3bb-4cb3-86c1-6c7d794003b9")
+		(uuid "9c63cd4a-3f46-424e-9950-86ea6f3d0e8f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.2 0.4 90)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "71119ab7-9b73-4528-afee-66ca58d01e15")
+		(uuid "ba291922-dafe-40db-a709-f97dec116cd1")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -129,56 +130,67 @@
 		(size 0.67 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "33c66cca-0cf4-44f6-a3d5-8b36b6c6461a")
+		(uuid "2bbc5e76-8e69-49b2-a574-ad12127869f4")
 	)
 	(pad "2" smd roundrect
 		(at -0.74 -0.25)
 		(size 0.67 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "fa328f61-ae4e-4b69-b620-0b6fbd109ed3")
+		(uuid "9f05ca82-8ea4-4f11-8139-14f4b5d9dcca")
 	)
 	(pad "3" smd roundrect
 		(at -0.75 0.25)
 		(size 0.67 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "dd47cda8-5883-43f3-83df-423d38dc3b97")
+		(uuid "095ee3be-dce4-4cfe-aad4-7dc58e32336a")
 	)
 	(pad "4" smd roundrect
 		(at -0.74 0.75)
 		(size 0.67 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "5cf57df8-4d1f-434b-b8a8-18ef43a4519e")
+		(uuid "055384e5-a3d6-464c-9f73-49daba0f116e")
 	)
 	(pad "5" smd roundrect
 		(at 0.74 0.75)
 		(size 0.67 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "68f45a3d-3f87-4b3a-998a-90a6818e7e23")
+		(uuid "9731c5dc-59b8-4f97-9aa1-6c4d8d291f96")
 	)
 	(pad "6" smd roundrect
 		(at 0.74 0.25)
 		(size 0.67 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "362809e2-316f-47a5-a77c-e01799518691")
+		(uuid "ad59da04-b90e-49fa-8e35-9e0dd61f43cd")
 	)
 	(pad "7" smd roundrect
 		(at 0.75 -0.25)
 		(size 0.67 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "358e707d-b4cf-4a4c-b9b9-fada6fbd0da8")
+		(uuid "8c77ccf6-986d-4e1d-8ef2-67e18553d970")
 	)
 	(pad "8" smd roundrect
 		(at 0.75 -0.75)
 		(size 0.67 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "2a6308a2-d934-44b6-8d32-d3430ca741b6")
+		(uuid "95929656-2c43-4afb-94cb-de70dc14ee74")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCadLibs/stepfiles/TexasInstruments/DRL0008A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
