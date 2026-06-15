@@ -7,7 +7,7 @@
 		(at 0 -3.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "118f34d9-208c-43e2-9520-9396f9f368ca")
+		(uuid "24871e54-ef02-4560-b078-e70f719f3c9b")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bf596b42-3ccf-4698-b9a7-27d409bb095f")
+		(uuid "6902d7ed-7de7-46fb-8367-e95f22b67c10")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1db61c57-2c3c-47b2-a376-9fa8b21ee9d0")
+		(uuid "a98ea4cc-44b8-4dd7-9b35-f23319ee452e")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a8f747bb-376f-4a42-ba21-71904c9aca82")
+		(uuid "fba54744-6729-4075-826c-b85f8f625944")
 		(effects
 			(font
 				(size 1 1)
@@ -65,7 +65,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "f90c68b6-6014-4b57-be7d-bf7738cfc0bf")
+		(uuid "8df90b54-6ad1-4ae3-ab50-48d8e020f8fd")
 	)
 	(fp_rect
 		(start -8.5 -2.5)
@@ -76,7 +76,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "9598fa74-f12b-47ec-ba08-4cfd2d0408f6")
+		(uuid "61fa60b2-bcb7-43c7-a04c-53c5f53d36a8")
 	)
 	(fp_rect
 		(start -8.25 -2.2)
@@ -87,13 +87,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "b9f715ae-bf99-454e-b8ea-ca7c2e66c43d")
+		(uuid "39201290-fbc9-4e33-bb6e-4f8b306f52d9")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "3a4e7ee7-c6a7-4466-891e-db03b3e53d09")
+		(uuid "7e40e1bb-9a69-4f68-b315-661babfdc55c")
 		(effects
 			(font
 				(size 1 1)
@@ -107,7 +107,7 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "af2cf46b-b5ab-4593-8c0b-373df5477cbe")
+		(uuid "dbcf90d9-ce24-4f82-a1dd-3a45bc61b794")
 	)
 	(pad "2" thru_hole circle
 		(at 3.75 0)
@@ -115,7 +115,18 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "28d08344-b31b-40bd-99b4-90977463c9f9")
+		(uuid "f84e47e6-dcca-4019-afcc-5ca124b8f053")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCadLibs/stepfiles/Bourns/mov-14d471k.stp"
+		(offset
+			(xyz 0 -2.75 11.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
 )

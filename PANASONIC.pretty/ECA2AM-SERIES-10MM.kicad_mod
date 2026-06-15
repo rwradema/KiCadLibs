@@ -1,13 +1,13 @@
 (footprint "ECA2AM-SERIES-10MM"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "6d2f0cfd-cef7-4acf-b96a-831cba9f0c58")
+		(uuid "0595164d-fd0e-4f59-a661-03c078869adb")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c619720f-36b2-44cd-a3ef-a6f19be78513")
+		(uuid "3ab1e545-aae4-46d4-9cda-8061d462517d")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "77203fb8-bef6-4fb3-8906-b37d46d5f081")
+		(uuid "c1ac1783-b4d5-4611-b8fb-8a502c480fb7")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c995a9c5-3169-4ecc-bd47-b0841ddea320")
+		(uuid "1d029189-d0fb-46c4-9a8e-5796bdcd17cb")
 		(effects
 			(font
 				(size 1 1)
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
 		(end -4 -4)
@@ -64,7 +65,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "9b46cad4-ffb5-4f00-8dc1-0a9b0e55f227")
+		(uuid "c777ecd3-f71b-4b0a-8db9-a77509669258")
 	)
 	(fp_poly
 		(pts
@@ -81,7 +82,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "b2bc98f3-e1ed-4f2d-a766-441265fa172a")
+		(uuid "5e30d97e-5aee-4830-b3b9-e7845facb1f1")
 	)
 	(fp_circle
 		(center 0 0)
@@ -92,7 +93,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f00d41c0-5bd1-4499-b224-be07ef4189d6")
+		(uuid "b08b2848-f5a6-48db-b1a4-61fb23efe8db")
 	)
 	(fp_circle
 		(center 0 0)
@@ -103,7 +104,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "0df209b3-84e0-4c0c-b229-48c18023d958")
+		(uuid "6dde4854-f677-45bb-957c-329b9c1cedf2")
 	)
 	(fp_poly
 		(pts
@@ -119,13 +120,13 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "b61177d8-8e24-4218-84f0-cfcc8d58a1c1")
+		(uuid "75a8deb3-3026-400b-b08d-cf8f9d7966b5")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f211faa5-6e19-4d51-814d-fffeded4748b")
+		(uuid "0b1afb2d-a3cc-4533-a3fe-82db31c44a10")
 		(effects
 			(font
 				(size 1 1)
@@ -139,7 +140,7 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "cc48acbe-6e15-4a88-9bc5-fda479a80fcb")
+		(uuid "83c10e8a-abaa-4f1b-a3ef-66a1c3f07808")
 	)
 	(pad "P" thru_hole circle
 		(at 2.5 0)
@@ -147,7 +148,18 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "31851de6-e949-4a4a-927d-741424d9bd21")
+		(uuid "a069da3a-9758-4b57-833c-a89c746507c3")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCadLibs/stepfiles/Panasonic/CAP_PAN_10X16_PAN.step"
+		(offset
+			(xyz 2.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
 )
