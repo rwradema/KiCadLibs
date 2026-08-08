@@ -212,6 +212,46 @@
 				)
 			)
 		)
+		(symbol "SW_SPDT_ESWITCH_400MSP1R6BLKM6QE_1_0"
+			(pin passive line
+				(at 21.59 2.54 180)
+				(length 2.54)
+				(hide yes)
+				(name "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 0 180)
+				(length 2.54)
+				(hide yes)
+				(name "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 )
